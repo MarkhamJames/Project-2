@@ -47,12 +47,22 @@ a {
   padding: 0px 20px 0px 20px;
   color: azure;
   text-decoration: none !important;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
-nav.navbar{
-  display: inline-flex
+nav.navbar {
+  display: inline-flex;
+  align-items: center;
+  }
+
+label {
+  font-family: 'Amatic SC', cursive;
+  padding: 5px;
+}
+
+select#CategorySelect {
+  background-color: coral;
 }
 
 #films {
