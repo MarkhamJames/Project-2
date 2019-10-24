@@ -1,17 +1,17 @@
 import React from 'react'
-export default function Createinput() {
+export default function Createinput(props) {
   return (
     <div>
-      <label for="CategorySelect">Choose a category:</label>
-      <select name="category" id="CategorySelect">
-        <option value="">--Please choose an option--</option>
-        <option value="">films</option>
-        <option value="">people</option>
-        <option value="">species</option>
-        <option value="">locations</option>
-        <option value="">vehicles</option>
+      <label htmlFor="CategorySelect">Choose a category:</label>
+      <select onChange={props.handleChange} name="category" id="CategorySelect" defaultValue="choose">
+        <option disabled value="choose">--Please choose an option--</option>
+        <option>films</option>
+        <option>people</option>
+        <option>species</option>
+        <option>locations</option>
+        <option>vehicles</option>
       </select>
-      {/* <input type="text" placeholder="search" value={this.state.films} onChange={props.handleChange}/> */}
+
     </div>
   )
 }

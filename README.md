@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Search Ghibli
 
-## Available Scripts
+---
+ 
+## Project URL
 
-In the project directory, you can run:
+ghibli-me.surge.sh
 
-### `npm start`
+## API
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://ghibliapi.herokuapp.com/ (studio ghibli api)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## MVP Description
 
-### `npm test`
+Search Ghibli is an App built using HTML, CSS, and JAVASCRIPT within the REACT framework as well as REACT ROUTE.  This app retrives data from the Studio Ghibli API (https://ghibliapi.herokuapp.com). The user enters input into the input field to search for a Studio Ghibli movie. The App retrieves any matching movies from the api along with accompanying data about that movie.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Wireframes
 
-### `npm run build`
+![MacDown Screenshot](file:///Users/jamesmarkham/Downloads/1 - Screen 1.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![MacDown Screenshot](file:///Users/jamesmarkham/Downloads/1 - Screen 1 2.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![MacDown Screenshot](file:///Users/jamesmarkham/Downloads/1 - Screen 1 3.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![MacDown Screenshot](file:///Users/jamesmarkham/Downloads/1 - Screen 1 4.png)
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The site will feature the following functional components:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Header 
+* Footer 
+* Search Button (Button.jsx)
+* Input Field   (Input.jsx)
+* List of Films (Films.jsx)
+* List of Locations (Locations.jsx)
+* List of Characters (People.jsx)
+* List of Species (Species.jsx)
+* List of Vehicles (Vehicles.jsx) 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Functional Components are provided data from App.js and App.css
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Stretch goals
 
-## Learn More
+I want the user to be able to widen their search parameters by searching for any particular character or association of a Stdio Ghibli film and retrieve any selected data related to that particular character or other aspect of those films. I would like to feature animations and background images relating to studio Ghibli films which are only retrived when the associated film or other data is searched for. I would also want to include a Ghibli based game based on the searched data. I also want to experiment with different uses of animation during searches
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Issues and Resolutions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Most of my issues revolved around CSS and the handleChange and handleClick functions.  My understanding of handleClick and handleClick functions were foggy so I re-read over the past lessons.  CSS issues were resolved with some experimentation. 
